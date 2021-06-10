@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body {
+  background-color: var(--body-bg);
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: var(--color-mint-300);
+  border-color: var(--color-mint-300);
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: var(--color-mint-400);
+  border-color: var(--color-mint-400);
+}
+
+.block {
+  border-radius: 5px;
+  background-color: var(--main-color);
+  border-bottom: 1px solid var(--main-accent);
+}
+
+.auth-form {
+  padding-top: 25px;
+  padding-bottom: 40px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: var(--color-mint-500);
+  border-color: var(--color-mint-500);
+}
+
+.btn-primary.focus, .btn-primary:focus {
+  color: #fff;
+  background-color: var(--color-mint-500);
+  border-color: var(--color-mint-500);
+  box-shadow: 0 0 0 0.2rem rgb(38 143 255 / 50%);
+}
+
+:root {
+  --color-gray-50: #f4f4f5;
+  --color-gray-100: #e9eaec;
+  --color-gray-200: #d1d2d6;
+  --color-gray-300: #b9bac1;
+  --color-gray-400: #989aa4;
+  --color-gray-500: #757884;
+  --color-gray-600: #5b5d67;
+  --color-gray-700: #4a4c54;
+  --color-gray-800: #35363b;
+  --color-gray-900: #26272b;
+  --color-mint: #37bc9d;
+  --color-mint-100: #d7f2eb;
+  --color-mint-200: rgba(175,228,216,1);
+  --color-mint-300: #87d7c4;
+  --color-mint-400: #5fc9b1;
+  --color-mint-500: #37bc9d;
+  --color-mint-600: #319c84;
+  --color-mint-700: #2c7c6b;
+  --color-mint-800: rgba(38,92,83,1);
+  --color-mint-900: #213c3a;
+  --main-color: #fff;
+  --color-font: var(--color-gray-600);
+  --main-accent: #cdcdcd;
+  --border-radius: 5px;
+  --body-bg: #f4f4f5;
+}

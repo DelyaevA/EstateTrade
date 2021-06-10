@@ -1,0 +1,12 @@
+.search {
+    margin-top: 2rem;
+    background-color: var(--main-color);
+    padding: 20px;
+    border-radius: var(--border-radius);
+    border-bottom: 1px solid var(--main-accent);
+    margin-bottom: 2rem;
+}
+
+.search-form {
+    margin-top: 1rem;
+}

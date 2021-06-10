@@ -1,0 +1,89 @@
+.login-container {
+    text-align: center;
+}
+
+.or-separator {
+    padding: 10px 0;
+    position: relative;
+    display: block;
+    margin-top: 20px;
+    font-size: 1em;
+}
+
+.or-separator {
+    overflow: hidden;
+    text-align: center;
+}
+.or-separator span {
+    display: inline-block;
+    vertical-align: middle;
+}
+.or-separator:before,
+.or-separator:after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    height: 1px;
+    background-color: #c8c8c8;
+    position: relative;
+}
+.or-separator:before {
+    margin-left: -100%;
+    left: -14px;
+}
+
+.btn.btn-block.social-btn.google {
+    border: 1px solid #c8c8c8;
+}
+.or-separator:after {
+    margin-right: -100%;
+    right: -14px;
+}
+
+.login-content {
+    background: #fff;
+    border-radius: 2px;
+    width: 500px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    padding: 35px;
+}
+
+.social-btn {
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.social-btn img {
+    height: 32px;
+}
+
+.social-btn.google {
+    margin-top: 7px;
+}
+
+.social-btn.facebook img {
+    height: 24px;
+    margin-left: 3px;
+}
+
+.social-btn.github img {
+    height: 24px;
+    margin-left: 3px;
+}
+
+.signup-link {
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 14px;
+}
+
+.login-title {
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: rgba(0, 0, 0, 0.65);
+}

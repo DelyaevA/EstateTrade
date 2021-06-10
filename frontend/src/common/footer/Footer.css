@@ -1,0 +1,34 @@
+.footer {
+    margin-top: 50px;
+    padding-bottom: 25px;
+}
+
+.footer {
+    background-color: #e6e9ed;
+}
+
+.footer .title {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.title.title-4 {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.title {
+    position: relative;
+    margin: 20px;
+    color: var(--color-font);
+}
+
+.footer .paragraph {
+    margin: 8px 10px;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.footer-wrapper {
+    background-color: #e6e9ed;
+}

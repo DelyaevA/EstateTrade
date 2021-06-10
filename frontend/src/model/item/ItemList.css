@@ -1,0 +1,21 @@
+.load-more-polls {
+    margin-top: 50px;
+}
+
+.card-img-top {
+    display: block;
+    padding: 1rem;
+    margin: auto;
+    height: 150px;
+    width: 150px;
+    max-width: 157.25px;
+    max-height: 170.96px;
+}
+
+.no-items-found {
+
+}
+
+.main-content .card-columns {
+    column-count: 3;
+}

@@ -1,0 +1,28 @@
+.profile {
+    margin-top: 2rem;
+}
+
+.profile .card-columns {
+    column-count: 4;
+}
+
+.profile .user-avatar {
+    width: 200px;
+    height: 200px;
+    border: 1px solid var(--main-accent);
+}
+
+.side-bar {
+    background-color: var(--main-color);
+    border-radius: var(--border-radius);
+    border-bottom: var(--main-accent);
+}
+
+.profile .side-bar .navbar {
+    justify-content: center;
+}
+
+.right-side {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

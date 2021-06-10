@@ -1,0 +1,45 @@
+.admin-control-panel .side-bar {
+    border-bottom: 1px solid var(--main-accent);
+}
+
+.user-info, .reset-password, .moderating {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.change-authority, .reset-password, .moderating, .unfreeze {
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.dashboard {
+    padding: 15px;
+}
+.table-items, .table-users,.table-auctions {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.admin-control-panel .react-bootstrap-table {
+    padding-top: 15px;
+}
+
+.form-control:disabled, .form-control[readonly] {
+    background-color: #ffffff;
+    opacity: 1;
+}
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: var(--color-mint-400);
+    border-color: var(--color-mint-400);
+}
+
+.page-item.active .page-link:hover {
+    z-index: 3;
+    color: #fff;
+    background-color: var(--color-mint-300);
+    border-color: var(--color-mint-300);
+}

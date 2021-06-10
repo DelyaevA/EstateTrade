@@ -1,0 +1,40 @@
+SVN_URL: BACKEND/
+app:
+  jwtExpirationInMs: 604800000
+  jwtSecret: JWTSuperSecretKey
+file:
+  extensions: ${FILE_EXTENSION}
+server:
+  port: 8080
+spring:
+  datasource:
+    initialization-mode: always
+    password: ${SPRING_DATASOURCE_PASSWORD}
+    url: ${SPRING_DATASOURCE_URL}
+    username: ${SPRING_DATASOURCE_USERNAME}
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: false
+  mail:
+    host: smtp.gmail.com
+    password: ${MAIL_PASSWORD}
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+    username: ${MAIL_USERNAME}
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            clientId: ${GOOGLE_CLIENT_ID}
+            clientSecret: ${GOOGLE_CLIENT_SECRET}
+  servlet:
+    multipart:
+      max-file-size: ${MAX_FILE_SIZE}
+      max-request-size: ${MAX_REQUEST_SIZE}

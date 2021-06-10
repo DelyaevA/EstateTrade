@@ -1,0 +1,18 @@
+.app-header {
+    background-color: var(--main-color);
+    border-bottom: 1px solid var(--main-accent);
+    color: white;
+}
+
+.nav-drop{
+    top:1px;
+    border-bottom: 3px solid #c893c7;
+    padding-top:20px;
+    padding-bottom:16px;
+    float:right;
+}
+
+.dropdown-menu{
+    left: -70px;
+}
+

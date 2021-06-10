@@ -1,0 +1,17 @@
+.small_star-rating {
+    position: absolute !important;
+    transform: translateY(10%) !important;
+    transform: translateX(10%);
+}
+.big_star-rating {
+    position: absolute !important;
+    transform: translateY(2%);
+    transform: translateX(5%);
+}
+
+.review_button{
+    transform: translateY(-20%) translateX(10%);
+    text-align: right !important;
+    font-size: 15px;
+    font-weight: bold;
+}
